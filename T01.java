@@ -4,7 +4,7 @@
 import java.util.*;
 import java.lang.Math;
 
-public class Program {
+public class T01 {
     private static Scanner input = new Scanner(System.in);
 
     public static void main(String[] args) {
@@ -19,7 +19,7 @@ public class Program {
         pENULIS = input.nextLine();
         int tAHUNTERBIT;
 
-        tAHUNTERBIT = input.nextInt();
+        tAHUNTERBIT = Integer.parseInt(input.nextLine());
         String pENERBIT;
 
         pENERBIT = input.nextLine();
@@ -28,16 +28,16 @@ public class Program {
         fORMATBUKU = input.nextLine();
         double hARGABELI;
 
-        hARGABELI = input.nextDouble();
+        hARGABELI = Double.parseDouble(input.nextLine());
         double mINIMUMMARGIN;
 
-        mINIMUMMARGIN = input.nextDouble();
+        mINIMUMMARGIN = Double.parseDouble(input.nextLine());
         int sTOK;
 
-        sTOK = input.nextInt();
+        sTOK = Integer.parseInt(input.nextLine());
         double rATING;
 
-        rATING = input.nextDouble();
+        rATING = Double.parseDouble(input.nextLine());
         System.out.println(iSBN + "|" + jUDUL + "|" + pENULIS + "|" + tAHUNTERBIT + "|" + pENERBIT + "|" + fORMATBUKU + "|" + hARGABELI + "|" + mINIMUMMARGIN + "|" + sTOK + "|" + rATING);
     }
 }
