@@ -4,9 +4,9 @@
         <attribute name="name" value="T01-Data type, Input-Output"/>
         <attribute name="authors" value="boyha"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2024-09-06 10:35:46 AM"/>
+        <attribute name="saved" value="2024-09-06 10:46:18 AM"/>
         <attribute name="created" value="Ym95aGE7Qk9ZOzIwMjQtMDktMDY7MTA6MTE6MjAgQU07MjAyMg=="/>
-        <attribute name="edited" value="Ym95aGE7Qk9ZOzIwMjQtMDktMDY7MTA6MzU6NDYgQU07MjsyMTQ1"/>
+        <attribute name="edited" value="Ym95aGE7Qk9ZOzIwMjQtMDktMDY7MTA6NDY6MTggQU07MzsyMTQ3"/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
@@ -32,7 +32,6 @@
             <declare name="RATING" type="Real" array="False" size=""/>
             <input variable="RATING"/>
             <output expression="ISBN&amp;&quot;|&quot;&amp;JUDUL&amp;&quot;|&quot;&amp;PENULIS&amp;&quot;|&quot;&amp;TAHUNTERBIT&amp;&quot;|&quot;&amp;PENERBIT&amp;&quot;|&quot;&amp;FORMATBUKU&amp;&quot;|&quot;&amp;HARGABELI&amp;&quot;|&quot;&amp;MINIMUMMARGIN&amp;&quot;|&quot;&amp;STOK&amp;&quot;|&quot;&amp;RATING" newline="True"/>
-            <output expression="MINIMUMMARGIN&amp;STOCK" newline="True"/>
         </body>
     </function>
 </flowgorithm>
