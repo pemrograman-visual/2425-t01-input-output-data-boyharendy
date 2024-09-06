@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="T01-Data type, Input-Output"/>
+        <attribute name="authors" value="boyha"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-06 10:35:46 AM"/>
+        <attribute name="created" value="Ym95aGE7Qk9ZOzIwMjQtMDktMDY7MTA6MTE6MjAgQU07MjAyMg=="/>
+        <attribute name="edited" value="Ym95aGE7Qk9ZOzIwMjQtMDktMDY7MTA6MzU6NDYgQU07MjsyMTQ1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="ISBN" type="String" array="False" size=""/>
+            <input variable="ISBN"/>
+            <declare name="JUDUL" type="String" array="False" size=""/>
+            <input variable="JUDUL"/>
+            <declare name="PENULIS" type="String" array="False" size=""/>
+            <input variable="PENULIS"/>
+            <declare name="TAHUNTERBIT" type="Integer" array="False" size=""/>
+            <input variable="TAHUNTERBIT"/>
+            <declare name="PENERBIT" type="String" array="False" size=""/>
+            <input variable="PENERBIT"/>
+            <declare name="FORMATBUKU" type="String" array="False" size=""/>
+            <input variable="FORMATBUKU"/>
+            <declare name="HARGABELI" type="Real" array="False" size=""/>
+            <input variable="HARGABELI"/>
+            <declare name="MINIMUMMARGIN" type="Real" array="False" size=""/>
+            <input variable="MINIMUMMARGIN"/>
+            <declare name="STOK" type="Integer" array="False" size=""/>
+            <input variable="STOK"/>
+            <declare name="RATING" type="Real" array="False" size=""/>
+            <input variable="RATING"/>
+            <output expression="ISBN&amp;&quot;|&quot;&amp;JUDUL&amp;&quot;|&quot;&amp;PENULIS&amp;&quot;|&quot;&amp;TAHUNTERBIT&amp;&quot;|&quot;&amp;PENERBIT&amp;&quot;|&quot;&amp;FORMATBUKU&amp;&quot;|&quot;&amp;HARGABELI&amp;&quot;|&quot;&amp;MINIMUMMARGIN&amp;&quot;|&quot;&amp;STOK&amp;&quot;|&quot;&amp;RATING" newline="True"/>
+            <output expression="MINIMUMMARGIN&amp;STOCK" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
